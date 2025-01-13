@@ -3,7 +3,7 @@ import { Noto_Sans } from "next/font/google";
 import './ui/global.css'
 
 export const noto = Noto_Sans({
-  subsets: ["latin"], weight: ["200", "400", "600"]
+  subsets: ["latin"], weight: ["200"] // , "400", "600"
 });
 
 export const metadata: Metadata = {
