@@ -1,6 +1,6 @@
+import "./ui/global.css";
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
-import './ui/global.css'
 
 export const noto = Noto_Sans({
   subsets: ["latin"], weight: ["200", "400", "600"]
@@ -18,7 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={noto.className}>{children}</body>
+      <body className={`${noto.className} bg-red-950`}>{children}
+      </body>
     </html>
   );
 }
