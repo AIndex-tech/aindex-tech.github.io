@@ -4,40 +4,36 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <header className="flex rounded-lg px-32 py-8 w-full border-b border-b-white bg-gray-900 bg-gradient-to-r from-[#000000] via-blue-500/30 to-[#000000]">
-        <div className="container justify-between items-center">
-          <div className="flex justify-start">
-            <div className="flex gap-6 bg-yellow-100">
-              <h1 className="text-lg leading-tight font-bold">
-                ＡＩｎｄｅｘ
-                {/*Discover the AI future. At your fingerti: Anytime, anywhere.*/}
-              </h1>
-              {/*<Link href="/about">About</Link>*/}
-              {/* Navigation */}
-              <nav>
-                <ul className="flex gap-6">
-                  <li>
-                    <Link href="/about">About </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">Contact</Link>
-                  </li>
-                </ul>
-              </nav>
+        <div className="container flex justify-between items-center mx-auto px-4">
+          <div className="w-1/3 flex justify-start gap-6">
+            <h1 className="text-lg leading-tight font-bold">
+              ＡＩｎｄｅｘ
+              {/*Discover the AI future. At your fingerti: Anytime, anywhere.*/}
+            </h1>
+            {/*<Link href="/about">About</Link>*/}
+            {/* Navigation */}
+            <nav>
+              <ul className="flex gap-6">
+                <li>
+                  <Link href="/about">About </Link>
+                </li>
+                <li>
+                  <Link href="/contact">Contact</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div className="fw-1/3 flex-grow justify-center">
+            <div className="w-full max-w-lg flex items-center p-1 rounded-lg shadow-md">
+              <input
+                type="text"
+                placeholder="Suche..."
+                className="flex-grow p-2 bg-gray-900/50 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300" />
             </div>
           </div>
-          <div className="flex justify-center">
-            <div className="flex-grow p-2 bg-yellow-100">
-              <div className="w-full max-w-lg flex items-center p-1 rounded-lg shadow-md">
-                <input
-                  type="text"
-                  placeholder="Suche..."
-                  className="flex-grow p-2 bg-gray-900/50 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-300"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="flex justify-end">
-            <div className="flex gap-6 bg-yellow-50">Hallo</div>
+
+          <div className="w-1/3 flex justify-end gap-6">
+            <div className="flex gap-6">Hallo</div>
           </div>
         </div>
       </header>
