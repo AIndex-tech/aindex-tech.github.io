@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "ggSansRegular";
+    src: url("/fonts/ggSansRegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ggSansBold";
+    src: url("/fonts/ggSansBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ggSansSemibold";
+    src: url("/fonts/ggSansSemibold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ggSansMedium";
+    src: url("/fonts/ggSansMedium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* do we need this? */
+}
+
+body {
+    background-color: var(--tw-bg);
+    /* Dynamic background from Tailwind config */
+    color: var(--tw-text);
+    /* Dynamic text color from Tailwind config */
+}
