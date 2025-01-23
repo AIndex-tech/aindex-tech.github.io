@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <link rel="icon" type="image/svg+xml" href="public/favicon.svg" />
         <title>AIndex: search AIs</title>
         <meta name="viewport" content="width-device-width, initial-scale=1.0" />
       </Head>
       <div className="bg-bg-light dark:bg-bg-dark font-sans">
         {/* Header */}
         <Header />
-
         {/* Main Content */}
         <main>
           <p className="text-center">
