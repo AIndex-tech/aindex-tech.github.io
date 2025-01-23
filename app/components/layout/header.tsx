@@ -7,9 +7,9 @@ import SearchBar from "./searchBar";
 export default function Header() {
     return (
         <header className="flex top-0 px-bt py-bt w-full border-b border-b-bg-darkBorder bg-gray-900 bg-gradient-to-r from-[#000000] via-blue-500/30 to-[#000000]">
-            <div className="flex justify-between container items-center max-w">
-                <div className="flex justify-start bg-yellow-200">
-                    <div className="flex gap-bt">
+            <div className="bg-yellow-600 justify-between container items-center flex max-w">
+                <div className="flex:w-1/3 justify-start">
+                    <div className="flex gap-bt bg-yellow-200">
                         <h1 className="text-lg leading-tight font-bold">
                             ＡＩｎｄｅｘ
                             {/*Discover the AI future. At your fingerti: Anytime, anywhere.*/}
@@ -27,10 +27,10 @@ export default function Header() {
                         </nav>
                     </div>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex:w-1/3 justify-center">
                     <SearchBar />
                 </div>
-                <div className="flex justify-end">
+                <div className="flex:w-1/3 justify-end">
                     <ThemeToggle />
                 </div>
             </div>
