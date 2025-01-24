@@ -32,7 +32,7 @@ export default function ThemeToggle() {
     return (
         <button
             onClick={toggleTheme}
-            className="p-sm bg-bg-light dark:bg-bg-dark rounded"
+            className="p-sm bg-bg-light2nd dark:bg-bg-dark2nd rounded"
         >
             {theme === "light" ? "🌙" : "☀️"}
         </button>

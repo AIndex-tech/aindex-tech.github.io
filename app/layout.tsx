@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import './ui/global.css';
 import Head from "next/head";
@@ -21,7 +21,7 @@ export default function RootLayout(
         </Head>
         <div className="flex flex-col min-h-screen
                         font-sans text-text-light dark:text-text-dark 
-                      bg-bg-light dark:bg-bg-dark
+                      bg-bg-light dark:bg-bg-dark 
                       border-b-bg-lightBorder dark:border-b-bg-darkBorder">
           <Header />
           <main className="flex-grow">
