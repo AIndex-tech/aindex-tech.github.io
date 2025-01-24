@@ -2,7 +2,7 @@
 
 export default function SearchBar() {
     return (
-        <div className="w-full flex items-center bg-yellow-200">
+        <div className="w-full flex items-center">
             <input
                 type="text"
                 placeholder="Suche..."

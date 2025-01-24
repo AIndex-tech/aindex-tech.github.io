@@ -3,7 +3,6 @@
 import Link from "next/link";
 import ThemeToggle from "./themeToggle";
 import SearchBar from "./searchBar";
-import Image from "next/image";
 
 export default function Header() {
     return (
