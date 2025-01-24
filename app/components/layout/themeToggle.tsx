@@ -1,5 +1,5 @@
 // theme toogle for dark(default)/light mode
-"use client"
+
 import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {

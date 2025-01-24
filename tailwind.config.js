@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 const { SERVER_FILES_MANIFEST } = require('next/dist/shared/lib/constants');
 const plugin = require('tailwindcss/plugin');
+const colors = require('tailwindcss/colors'); // Import Tailwind's color palette
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,18 +14,18 @@ module.exports = {
     extend: {
       colors: {
         bg: {
-          dark: "111111",
-          light: "dddddd",
-          dark2nd: "222222",
-          light2nd: "ffffff",
-          darkBorder: "222222",
-          lightBorder: "000000",
+          dark: "#111111",
+          light: "#eeeeee",
+          dark2nd: "#222222",
+          light2nd: "#ffffff",
+          darkBorder: "#dddddd",
+          lightBorder: "#000000",
         },
         text: {
-          dark: "text-blue-300/80",
-          light: "text-blue-900/80",
-          darkHover: "text-blue",
-          lightHover: "text-blue-900",
+          dark: colors.blue[300] + "CC", // CC = 80% in hex/dec
+          light: colors.blue[900] + "CC",
+          darkHover: colors.blue[300],
+          lightHover: colors.blue[900],
         }
       },
       fontFamily: {

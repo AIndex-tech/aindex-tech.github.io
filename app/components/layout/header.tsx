@@ -7,16 +7,17 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <header className="flex top-0 px-bt py-bt w-full border-b border-b-bg-darkBorder bg-gray-900 bg-gradient-to-r from-[#000000] via-blue-500/30 to-[#000000]">
-            <div className="bg-yellow-600 justify-between container items-center flex max-w mx-auto px-md">
+        <header className="flex top-0 px-bt py-bt w-full border-b bg-gradient-to-r 
+                        from-bg-light2nd via-blue-500/70 to-bg-light2nd 
+                        dark:from-bg-dark2nd dark:via-blue-500/30 dark: dark:to-bg-dark2nd">
+            <div className="justify-between container items-center flex max-w mx-auto px-md">
                 <div className="flex:w-1/3 justify-start gap-bt">
                     {/* Logo */}
-                    <Image src="/public/favicon.svg" fill={true} alt="the AIndex logo"
-                    />
-                    <h1 className="text-lg leading-tight font-bold">
+                    <img src="/favicon.svg" alt="the AIndex logo" className="h-full" />
+                    {/* <h1 className="text-lg leading-tight font-bold">
                         ＡＩｎｄｅｘ
-                        {/*Discover the AI future. At your fingerti: Anytime, anywhere.*/}
-                    </h1>
+                        *Discover the AI future. At your fingerti: Anytime, anywhere.*
+                    </h1> */}
                     {/* Navigation */}
                     <nav>
                         <ul className="flex gap-bt">
