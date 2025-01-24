@@ -12,7 +12,7 @@ export default function Header() {
             <div className="justify-between container items-center flex max-w mx-auto px-md">
                 <div className="flex:w-1/3 justify-start gap-bt">
                     {/* Logo */}
-                    <img src="/favicon.svg" alt="the AIndex logo" className="h-full" />
+                    <img src="/Logo_2.svg" alt="the AIndex logo" className="h-full" />
                     {/* <h1 className="text-lg leading-tight font-bold">
                         ＡＩｎｄｅｘ
                         *Discover the AI future. At your fingerti: Anytime, anywhere.*
