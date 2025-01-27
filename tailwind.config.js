@@ -20,6 +20,7 @@ module.exports = {
           light2nd: "#ffffff",
           darkBorder: "#dddddd",
           lightBorder: "#000000",
+          lightBorder2nd: "#dbeafe",
         },
         text: {
           dark: colors.blue[300] + "CC", // CC = 80% in hex/dec
