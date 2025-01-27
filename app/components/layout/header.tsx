@@ -10,9 +10,10 @@ export default function Header() {
                         from-bg-light2nd via-blue-500/70 to-bg-light2nd 
                         dark:from-bg-dark2nd dark:via-blue-500/30 dark: dark:to-bg-dark2nd">
             <div className="justify-between container items-center flex max-w mx-auto px-md">
-                <div className="flex:w-1/3 justify-start gap-bt">
+                <div className="flex w-1/3 justify-start gap-bt items-center">
+
                     {/* Logo */}
-                    <img src="/Logo_2.svg" alt="the AIndex logo" className="h-full" />
+                    <img src="/Logo_2.svg" alt="the AIndex logo" className="flex h-10 w-auto" />
                     {/* <h1 className="text-lg leading-tight font-bold">
                         ＡＩｎｄｅｘ
                         *Discover the AI future. At your fingerti: Anytime, anywhere.*
@@ -29,10 +30,10 @@ export default function Header() {
                         </ul>
                     </nav>
                 </div>
-                <div className="flex-grow:w-1/3 justify-center">
+                <div className="flex-grow w-1/3 justify-center">
                     <SearchBar />
                 </div>
-                <div className="flex:w-1/3 justify-end">
+                <div className="flex w-1/3 justify-end">
                     <ThemeToggle />
                 </div>
             </div>
